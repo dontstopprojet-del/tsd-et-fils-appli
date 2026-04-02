@@ -24,7 +24,6 @@ const AdminDashboardEnhanced = lazy(() => import('./AdminDashboardEnhanced'));
 const AuthenticatedQuoteForm = lazy(() => import('./AuthenticatedQuoteForm'));
 const ClientInvoicesScreen = lazy(() => import('./ClientInvoicesScreen'));
 const AuthenticatedQuoteTracker = lazy(() => import('./AuthenticatedQuoteTracker'));
-const VisitorHomePage = lazy(() => import('./VisitorHomePage'));
 
 const Stars = ({ rating, setRating, size=28, readonly=false, goldColor='#FFD700' }: { rating: number; setRating?: (r: number) => void; size?: number; readonly?: boolean; goldColor?: string }) => (
   <div style={{display:'flex',gap:'3px',justifyContent:'center'}}>
@@ -249,6 +248,8 @@ const ClientChantierDetail = ({ chantier, onClose, colors: C, lang }: { chantier
     </div>
   );
 };
+
+const VisitorHomePage = lazy(() => import('./VisitorHomePage'));
 
 const TSDApp = () => {
   const [lang, setLang] = useState('fr');

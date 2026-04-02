@@ -17,6 +17,5 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
-  "exclude": ["src/components/TSDApp.tsx", "src/pages/WelcomePage.tsx"]
+  "include": ["src"]
 }
