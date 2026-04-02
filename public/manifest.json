@@ -1,0 +1,17 @@
+{
+  "name": "TSD & Fils - Plomberie Professionnelle",
+  "short_name": "TSD & Fils",
+  "description": "L'Excellence Europeenne en Plomberie Sanitaire au Service de la Guinee",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0891b2",
+  "theme_color": "#0891b2",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
