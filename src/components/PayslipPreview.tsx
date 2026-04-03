@@ -70,17 +70,17 @@ const PayslipPreview = ({ payslip, onClose }: PayslipPreviewProps) => {
       justifyContent: 'center',
       zIndex: 9999,
       backdropFilter: 'blur(4px)',
-      padding: '20px',
+      padding: '10px',
     }}
       onClick={onClose}
     >
       <div
         style={{
           background: '#FFF',
-          borderRadius: '20px',
+          borderRadius: '12px',
           width: '100%',
-          maxWidth: '700px',
-          maxHeight: '90vh',
+          maxWidth: '95vw',
+          maxHeight: '95vh',
           overflow: 'auto',
           boxShadow: '0 25px 80px rgba(0,0,0,0.3)',
         }}
